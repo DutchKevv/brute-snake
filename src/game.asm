@@ -9,5 +9,6 @@ int     0x80
 mov     eax,1
 int     0x80
 section     .data
-msg     DB  'READYYYY!!!!!',0xa
+msg     DB  'R222222222222222222EADYYYY!!!!!',0xa
+len     equ $ - msg
 len     equ $ - msg
